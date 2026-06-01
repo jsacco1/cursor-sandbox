@@ -1,0 +1,5 @@
+# cursor-day1 lab anchor
+purpose: practice Ask, Agent, and @-mentions
+owner: jamessacco
+rule under test: one logical change per turn
+next: ask the agent to change line 4 only
