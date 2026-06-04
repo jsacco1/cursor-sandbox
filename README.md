@@ -8,4 +8,11 @@ See [`lab.txt`](lab.txt) for the day-1 anchor file and exercise notes.
 
 ## Run
 
-_(Run instructions for `greet.py` are added after the script is created.)_
+From the repo root:
+
+```bash
+cd ~/dev/cursor-day1-sandbox
+python3 greet.py
+```
+
+Expected output: `Hello from cursor-day1-sandbox!`
