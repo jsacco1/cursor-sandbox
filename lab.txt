@@ -2,4 +2,4 @@
 purpose: practice Ask, Agent, and @-mentions
 owner: jamessacco
 rule under test: multi-line override demo
-next: line 4 exercise complete — optional: add one project rule
+next: line 5 updated after line 4 demo
