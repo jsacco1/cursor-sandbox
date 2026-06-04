@@ -1,0 +1,9 @@
+---
+description: Python conventions for the day-2 sandbox
+globs: "**/*.py"
+alwaysApply: false
+---
+
+- Prefer small functions and a `main()` guard.
+- Run `python3` on the changed script before claiming it works.
+- Do not edit `lab.txt` unless asked.
