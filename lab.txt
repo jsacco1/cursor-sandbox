@@ -1,5 +1,5 @@
 # cursor-day1 lab anchor
 purpose: practice Ask, Agent, and @-mentions
 owner: jamessacco
-rule under test: one logical change per turn
+rule under test: multi-line override demo
 next: line 4 exercise complete — optional: add one project rule
