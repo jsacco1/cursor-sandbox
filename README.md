@@ -13,6 +13,7 @@ From the repo root:
 ```bash
 cd ~/dev/cursor-day1-sandbox
 python3 greet.py
+python3 greet.py Jamie
 ```
 
-Expected output: `Hello from cursor-day1-sandbox!`
+Expected output: `Hello, world!` and `Hello, Jamie!`
