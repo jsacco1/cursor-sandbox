@@ -1,0 +1,7 @@
+---
+description: Scoped edits for the day-1 lab file
+globs: lab.txt
+alwaysApply: false
+---
+
+When editing lab.txt, change at most one line unless I explicitly say otherwise.

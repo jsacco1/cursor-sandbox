@@ -2,4 +2,4 @@
 purpose: practice Ask, Agent, and @-mentions
 owner: jamessacco
 rule under test: one logical change per turn
-next: ask the agent to change line 4 only
+next: line 4 exercise complete — optional: add one project rule
