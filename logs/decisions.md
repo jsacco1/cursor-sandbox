@@ -7,3 +7,11 @@
 
 ### 20:35 — Initialization sequence
 - Agreed to initialize workspace ops in scoped Agent turns: Turn 1 vision → Turn 2 protocol + logs → Turn 3 roadmap → Turn 4 first log entries.
+
+## 2026-06-08
+
+### 23:17 — End of day
+- Added `friction.md` as fifth log stream; updated `VISION.md`, `PROTOCOL.md`, `README.md`.
+- Saved skill baseline in `docs/SKILL-RUBRICS.md` (Coding 3, Git 2, Cursor 1, AI Tools 1, Building Projects 2, Debugging 3).
+- Adopted end-of-day rule + `logs/handoff.md` to cut next-session startup friction.
+- Deferred R3 (`greet.py` Ask exercise) to next session in favor of 66-day planning and ops hardening.

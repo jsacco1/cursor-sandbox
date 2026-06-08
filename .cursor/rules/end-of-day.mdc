@@ -1,0 +1,74 @@
+---
+description: End-of-day logging, handoff, and next-session startup when I say I'm done for the day
+alwaysApply: true
+---
+
+# End of day / start of day
+
+## Trigger
+
+When I say I am **done for the day** (or similar: "end of session", "wrapping up", "EOD"), run this workflow in **Agent mode** unless I am only asking for the plan in Ask mode.
+
+## Step 1 — Collect
+
+Use what I provide in the message. If anything is missing, ask **one** short batch of questions:
+
+- What did you decide or focus on? → `decisions`
+- What did you do (edits, runs, commits)? → `actions`
+- Any learnings? → `learnings`
+- Any friction (technical, psychological, emotional)? → `friction` (skip if none)
+- Done / blocked / tomorrow? → `reviews`
+
+## Step 2 — Append logs
+
+Append to all five files under [`logs/`](/logs/) using [`PROTOCOL.md`](/PROTOCOL.md) format:
+
+- `## YYYY-MM-DD` (create if first entry that day)
+- `### HH:MM — End of day` (24-hour clock; use local time if unknown, note estimate)
+- Bullets only; **append at bottom**; do not edit past entries except typos
+
+Route content to the correct stream. Do not duplicate the full review into every file—each file gets what belongs there.
+
+## Step 3 — Handoff file
+
+Overwrite [`logs/handoff.md`](/logs/handoff.md) with:
+
+```markdown
+# Session handoff
+
+## Previous day (YYYY-MM-DD) — brief
+[3–5 bullets: outcomes, blockers, git state]
+
+## Today (YYYY-MM-DD) — plan
+[Numbered startup steps to reduce friction—specific files, roadmap IDs, first command]
+
+## First action
+[One concrete action, e.g. "Open ROADMAP → start R3 Ask on @greet.py"]
+
+## Open threads
+[Uncommitted work, blockers, or follow-ups, or "None"]
+```
+
+Use **tomorrow's date** for "Today" when closing at night.
+
+## Step 4 — Housekeeping
+
+- Update [`ROADMAP.md`](/ROADMAP.md) status if milestones moved.
+- Note `git status` in handoff if not clean.
+- Commit log/handoff updates **only when I ask**.
+
+## Step 5 — Reply
+
+End with:
+
+1. **Previous day** — 2–3 sentence summary
+2. **Next day plan** — numbered, copy of handoff "Today" section
+3. **First action** — single line to execute on open
+
+## Start of day
+
+When I say **good morning**, **start session**, **what's today**, or open with handoff context:
+
+1. Read [`logs/handoff.md`](/logs/handoff.md)
+2. Reply with previous-day brief + today's plan + first action
+3. Offer a three-bullet plan for the first milestone if I want to proceed

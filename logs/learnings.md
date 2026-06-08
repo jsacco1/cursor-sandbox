@@ -7,3 +7,10 @@
 
 ### 20:45 — Append-only logs
 - One file per stream with date/time headings avoids directory sprawl while still separating learnings, decisions, actions, and reviews.
+
+## 2026-06-08
+
+### 23:17 — End of day
+- Cursor/AI at 1 is the critical path—omics portfolio work should wait until PROTOCOL loops are automatic.
+- Skill rubrics with observable behaviors beat gut-feel re-rating; re-rate only after two weeks of evidence.
+- `handoff.md` + “start session” / “done for the day” turns planning into a repeatable bookend for each day.

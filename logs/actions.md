@@ -13,3 +13,11 @@
 
 ### 20:58 — Turn 4
 - Appended first log entries for protocol initialization day.
+
+## 2026-06-08
+
+### 23:17 — End of day
+- Created `logs/friction.md`, `logs/handoff.md`, `docs/SKILL-RUBRICS.md`, `.cursor/rules/end-of-day.mdc`.
+- Updated `VISION.md`, `PROTOCOL.md`, `README.md` (friction stream, skill rubrics link, EOD/handoff docs).
+- 66-day goals and Revolution Medicines landscape planning (Ask sessions; not committed).
+- No commits today; working tree has modified and untracked files (see handoff).
