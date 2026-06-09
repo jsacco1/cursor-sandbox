@@ -18,3 +18,8 @@
 ### 23:26 — End of day (session 2)
 - Planning belongs in repo docs (`docs/`) once shaped—not only in chat—so handoff and roadmap stay grounded.
 - Closing with a commit clears cognitive load; tomorrow can start on R3 without git hygiene overhead.
+
+## 2026-06-09
+
+### 23:48 — R3 `greet.py`
+- `if __name__ == "__main__"` runs `main()` only on direct execution, not import; `print` is what the user sees, while `main()` returns `None` to Python; `sys.argv[1]` needs a length check because missing args cause `IndexError`, not because `argparse` is required yet.

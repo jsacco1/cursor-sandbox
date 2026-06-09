@@ -26,3 +26,8 @@
 - Added `docs/SKILL-BASELINE.md`, `docs/GOALS-66-day.md`, `docs/resources/oncology-omics.md`, `docs/context/revmed-landscape.md`, `docs/leadership-decision-support.md`, `docs/README.md`.
 - Updated `docs/SKILL-RUBRICS.md`, `README.md` with doc links.
 - Committed `4f159b7` (17 files); working tree clean.
+
+## 2026-06-10
+
+### 00:43 — R4
+- Replaced `sys.argv` with `argparse` `--name` in `greet.py`; verified default, `--help`, `--name Jamie`; marked R4 Done in `ROADMAP.md`.

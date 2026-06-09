@@ -20,3 +20,12 @@
 - Persisted domain planning to `docs/` (GOALS, oncology resources, RevMed landscape, leadership decision support).
 - Created `docs/SKILL-BASELINE.md` with evidence-backed ratings.
 - Committed all ops and docs (`4f159b7`); R3 still deferred to 2026-06-09.
+
+## 2026-06-09
+
+### 23:48 — R4 formulation (`argparse` CLI)
+- **Question:** Replace manual `sys.argv` parsing with a small `argparse` CLI for `greet.py`.
+- **Scope:** One optional flag `--name` (default `world`); keep `main()` entry point; same behavior as today for `python3 greet.py` and `python3 greet.py Jamie`.
+- **Deliverable:** `greet.py` only; verify with both invocations; one Agent turn.
+- **Out of scope:** R6 tests, new dependencies, refactoring beyond argparse.
+- **Done when:** `python3 greet.py --help` works; default and `--name` match current output; `git diff` is reviewable.
