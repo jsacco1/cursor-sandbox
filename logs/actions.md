@@ -31,3 +31,6 @@
 
 ### 00:43 — R4
 - Replaced `sys.argv` with `argparse` `--name` in `greet.py`; verified default, `--help`, `--name Jamie`; marked R4 Done in `ROADMAP.md`.
+
+### 00:58 — End of day
+- Marked R3 Done; logged R3 learning; R4 formulation + implementation; committed `8fd6e09`; pushed `main`; marked R5 Done; committed/pushed `569dc11`.

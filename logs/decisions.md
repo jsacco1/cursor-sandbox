@@ -29,3 +29,8 @@
 - **Deliverable:** `greet.py` only; verify with both invocations; one Agent turn.
 - **Out of scope:** R6 tests, new dependencies, refactoring beyond argparse.
 - **Done when:** `python3 greet.py --help` works; default and `--name` match current output; `git diff` is reviewable.
+
+## 2026-06-10
+
+### 00:58 — End of day
+- Completed R3–R5 in one session; next focus is R6 (pytest) when ready—formulate before Agent turn.
