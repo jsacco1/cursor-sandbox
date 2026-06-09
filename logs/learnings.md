@@ -14,3 +14,7 @@
 - Cursor/AI at 1 is the critical path—omics portfolio work should wait until PROTOCOL loops are automatic.
 - Skill rubrics with observable behaviors beat gut-feel re-rating; re-rate only after two weeks of evidence.
 - `handoff.md` + “start session” / “done for the day” turns planning into a repeatable bookend for each day.
+
+### 23:26 — End of day (session 2)
+- Planning belongs in repo docs (`docs/`) once shaped—not only in chat—so handoff and roadmap stay grounded.
+- Closing with a commit clears cognitive load; tomorrow can start on R3 without git hygiene overhead.

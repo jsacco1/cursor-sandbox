@@ -13,3 +13,8 @@
 - **Done:** Friction log + handoff workflow; skill rubrics; EOD Cursor rule; PROTOCOL/README docs aligned; 66-day / RevMed planning in chat.
 - **Blocked:** Nothing hard—R3 not started.
 - **Tomorrow:** R3 Ask on `@greet.py`; review/commit uncommitted ops files if satisfied; say **start session** and use handoff.
+
+### 23:26 — End of day (session 2)
+- **Done:** Skill baseline record; 66-day/domain docs in repo; committed `4f159b7`; git clean.
+- **Blocked:** R3 not started.
+- **Tomorrow:** R3 only—Ask on `@greet.py`, mark In progress, log one learning; no new ops unless blocking.

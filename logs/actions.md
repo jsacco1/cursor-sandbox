@@ -21,3 +21,8 @@
 - Updated `VISION.md`, `PROTOCOL.md`, `README.md` (friction stream, skill rubrics link, EOD/handoff docs).
 - 66-day goals and Revolution Medicines landscape planning (Ask sessions; not committed).
 - No commits today; working tree has modified and untracked files (see handoff).
+
+### 23:26 — End of day (session 2)
+- Added `docs/SKILL-BASELINE.md`, `docs/GOALS-66-day.md`, `docs/resources/oncology-omics.md`, `docs/context/revmed-landscape.md`, `docs/leadership-decision-support.md`, `docs/README.md`.
+- Updated `docs/SKILL-RUBRICS.md`, `README.md` with doc links.
+- Committed `4f159b7` (17 files); working tree clean.

@@ -15,3 +15,8 @@
 - Saved skill baseline in `docs/SKILL-RUBRICS.md` (Coding 3, Git 2, Cursor 1, AI Tools 1, Building Projects 2, Debugging 3).
 - Adopted end-of-day rule + `logs/handoff.md` to cut next-session startup friction.
 - Deferred R3 (`greet.py` Ask exercise) to next session in favor of 66-day planning and ops hardening.
+
+### 23:26 — End of day (session 2)
+- Persisted domain planning to `docs/` (GOALS, oncology resources, RevMed landscape, leadership decision support).
+- Created `docs/SKILL-BASELINE.md` with evidence-backed ratings.
+- Committed all ops and docs (`4f159b7`); R3 still deferred to 2026-06-09.
